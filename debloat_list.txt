@@ -1,0 +1,53 @@
+# =================================================================
+# SAMSUNG ONE UI COMPLETE SAFE DEBLOAT LIST
+# =================================================================
+# INSTRUCTIONS: Review this list before running any script. 
+# Lines starting with '#' are comments and will be ignored by scripts.
+# All packages below use 'pm disable-user --user 0' (Knox Safe).
+
+# --- BIXBY SUITE & VOICE ASSISTANTS ---
+# Disables Samsung's smart assistant and its voice activation features.
+com.samsung.android.bixby.agent
+com.samsung.android.bixby.wakeup
+com.samsung.android.bixby.service
+com.samsung.android.app.spage
+com.samsung.android.app.routines
+com.samsung.android.bixbyvision.framework
+
+# --- AR (AUGMENTED REALITY) & EMOJI ---
+# Removes camera AR stickers, emojis, and 3D avatar editors.
+com.samsung.android.arzone
+com.samsung.android.aremoji
+com.samsung.android.aremojieditor
+com.samsung.android.livestickers
+com.samsung.android.foryouitem
+com.sec.android.app.camera.sticker.facearavatar
+
+# --- GAMING & PERFORMANCE OVERLAYS ---
+# Disables Game Launcher and Game Optimization Services (GOS).
+com.samsung.android.game.gamelauncher
+com.samsung.android.game.gamehome
+com.samsung.android.game.gos
+
+# --- SAMSUNG STOCK APPS ALTERNATIVES ---
+# Optional: Turn these off only if you prefer Google Keep, Google Calendar, etc.
+com.samsung.android.app.notes
+com.samsung.android.calendar
+com.samsung.android.messaging
+com.sec.android.app.myfiles
+com.samsung.android.app.contacts
+
+# --- SYSTEM BLOAT & VISUAL EXTRAS ---
+# Removes Kids Mode, Link to Windows, and minor background sync services.
+com.samsung.android.kidshome
+com.samsung.android.mdx
+com.samsung.android.app.sharelive
+com.samsung.android.app.simplesharing
+com.samsung.android.service.peopleservice
+com.samsung.android.visionarapps
+com.samsung.android.dynamiclock
+
+# --- COMPANION & DIAGNOSTICS ---
+# Disables galaxy watch manager (if you don't own one) and carrier/diagnostic plugins.
+com.samsung.android.app.watchmanager
+com.samsung.android.sdm.plugins
